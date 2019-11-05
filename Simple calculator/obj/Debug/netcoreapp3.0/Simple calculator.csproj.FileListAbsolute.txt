@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.exe
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.deps.json
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.runtimeconfig.json
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.runtimeconfig.dev.json
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.dll
+C:\Users\HP\source\repos\Simple calculator\bin\Debug\netcoreapp3.0\Simple calculator.pdb
+C:\Users\HP\source\repos\Simple calculator\obj\Debug\netcoreapp3.0\Simple calculator.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Simple calculator\obj\Debug\netcoreapp3.0\Simple calculator.AssemblyInfo.cs
+C:\Users\HP\source\repos\Simple calculator\obj\Debug\netcoreapp3.0\Simple calculator.dll
+C:\Users\HP\source\repos\Simple calculator\obj\Debug\netcoreapp3.0\Simple calculator.pdb

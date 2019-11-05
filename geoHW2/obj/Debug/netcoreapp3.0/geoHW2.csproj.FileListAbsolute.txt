@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.exe
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.deps.json
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.runtimeconfig.json
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.runtimeconfig.dev.json
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.dll
+C:\Users\HP\source\repos\geoHW2\bin\Debug\netcoreapp3.0\geoHW2.pdb
+C:\Users\HP\source\repos\geoHW2\obj\Debug\netcoreapp3.0\geoHW2.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\geoHW2\obj\Debug\netcoreapp3.0\geoHW2.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\geoHW2\obj\Debug\netcoreapp3.0\geoHW2.AssemblyInfo.cs
+C:\Users\HP\source\repos\geoHW2\obj\Debug\netcoreapp3.0\geoHW2.dll
+C:\Users\HP\source\repos\geoHW2\obj\Debug\netcoreapp3.0\geoHW2.pdb
