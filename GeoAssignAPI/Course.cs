@@ -12,6 +12,5 @@ namespace GeoAssignAPI
         public int CourseCode { get; set; }
         [Required]
         public string CourseName { get; set; }
-        public int count { get; set; }
     }
 }

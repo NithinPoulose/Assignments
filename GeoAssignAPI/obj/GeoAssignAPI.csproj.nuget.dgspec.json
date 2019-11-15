@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\GeoAssignAPI\\GeoAssignAPI.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Assignments\\GeoAssignAPI\\GeoAssignAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\GeoAssignAPI\\GeoAssignAPI.csproj": {
+    "C:\\Users\\HP\\Desktop\\Assignments\\GeoAssignAPI\\GeoAssignAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\GeoAssignAPI\\GeoAssignAPI.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Assignments\\GeoAssignAPI\\GeoAssignAPI.csproj",
         "projectName": "GeoAssignAPI",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\GeoAssignAPI\\GeoAssignAPI.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Assignments\\GeoAssignAPI\\GeoAssignAPI.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\GeoAssignAPI\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Assignments\\GeoAssignAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

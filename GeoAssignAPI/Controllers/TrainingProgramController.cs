@@ -13,7 +13,6 @@ namespace GeoAssignAPI.Controllers
         int id;
         int CId;
         int Flag = 0;
-        int count = 0;
         public static List<Student> stud = new List<Student>();
         public static List<Course> crs = new List<Course>();
 
@@ -34,11 +33,11 @@ namespace GeoAssignAPI.Controllers
             return Ok(Addcrs);
         }
 
-        //[HttpGet("api/course")]
-        //public IActionResult GetCourses()
-        //{
-        //    return Ok(crs);
-        //}
+        [HttpGet("api/course")]
+        public IActionResult GetCourses()
+        {
+            return Ok(crs);
+        }
 
         [HttpDelete("api/course/{Id}")]
         public IActionResult DeleteCourse(int id)
@@ -68,23 +67,21 @@ namespace GeoAssignAPI.Controllers
                     data.CourseId = PutCourse.CourseId;
                     data.CourseCode = PutCourse.CourseCode;
                     data.CourseName = PutCourse.CourseName;
-                    return Ok("Update Sucessful");
+                    return Ok("Update Successful");
                 }
             }
             return Ok();
         }
 
         //Course and Student Details
-        [HttpGet("api/course")]
+        [HttpGet("api/course/count")]
         public IActionResult CourseAndStudents()
         {
             var list = from c in crs
                        join s in stud
                        on c.CourseName equals s.Course
-                       select new { s.Course, c.CourseName, c.count, s.Id, c.CourseCode, c.CourseId};
-            var newcnt = from x in list
-                         group x by x.CourseName into grp
-                         select new { CourseName = grp.Key, Count = grp.Count() };
+                       group s by s.Course into grp
+                       select new { Course = grp.Key, Count = grp.Count() };
             return Ok(list);
         }
 
@@ -186,12 +183,12 @@ namespace GeoAssignAPI.Controllers
             {
                 if (item.Id == null)
                 {
-                    return NotFound("Student Not Fount");
+                    return NotFound("Student Not Found");
                 }
                 else if (item.Id == id)
                 {
                     stud.Remove(stud.Single(x => x.Id == id));
-                    return Ok("Deleted Sucessfully");
+                    return Ok("Deleted Successfully");
                 }
 
             }
